@@ -1,0 +1,83 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300 600;
+    background-color: #BB99DD;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 50%;
+  }
+
+figcaption{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+:root{
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+div{
+    margin: auto;
+   
+    
+}
+ul{
+    text-align: center;
+    background-color: #FAF7FD
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.link-box {
+    display: block;                /* Ocupa a largura completa do contêiner */
+    width: 200px;                  /* Ajuste a largura como preferir */
+    padding: 10px;                 /* Espaçamento interno para deixar o retângulo maior */
+    margin: 10px auto;             /* Espaçamento entre os links e centralização */
+    text-align: center;            /* Centraliza o texto */
+    text-decoration: none;         /* Remove o sublinhado do link */
+    color: #8a2be2;                /* Cor do texto */
+    border: 2px solid #8a2be2;     /* Borda para criar o retângulo */
+    border-radius: 8px;            /* Arredonda os cantos, se desejar */
+    font-family: Arial, sans-serif;/* Estilo da fonte */
+    transition: 0.3s;              /* Animação suave ao passar o mouse */
+  }
+  
+  .link-box:hover {
+    background-color: #8a2be2;     /* Muda a cor de fundo ao passar o mouse */
+    color: white;                  /* Muda a cor do texto para contraste */
+  }
+  
+  .perfil-imagem {
+    width: 150px;                  /* Define o tamanho da imagem */
+    height: 150px;                 /* Define o tamanho da imagem */
+    border-radius: 50%;            /* Torna a imagem circular */
+    border: 4px solid #8a2be2;     /* Adiciona uma borda ao redor da imagem */
+    object-fit: cover;             /* Garante que a imagem preencha o círculo sem distorção */
+  }
+  
+  .social-icons {
+    display: flex;                /* Alinha os ícones em uma fileira */
+    justify-content: center;      /* Centraliza a fileira na página */
+    gap: 15px;                    /* Espaçamento entre os ícones */
+    margin-top: 20px;             /* Espaço acima dos ícones */
+    margin-bottom: 20px;          /* Espaço abaixo dos ícones */
+  }
+  
+  .social-icons img {
+    width: 24px;                  /* Define o tamanho dos ícones */
+    height: 24px;                 /* Define o tamanho dos ícones */
+    transition: 0.3s;             /* Animação suave ao passar o mouse */
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.2);        /* Aumenta o ícone quando o mouse passa por cima */
+  }
+  
